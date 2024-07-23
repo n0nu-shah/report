@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    color: #333;
+}
+.container {
+    background-color: #eed4d8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    height: 689px;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background: linear-gradient(to right, #1995AD, #A1D6E2);
+    color: #fff;
+}
+header img {
+    height: 60px;
+    margin: 0;
+    margin-right: 20px;
+    max-width: 100%;
+}
+header .home-button {
+    background-color: #585658;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px 0;
+}
+header .home-button:hover {
+    background-color: #000000;
+}
+nav {
+    text-align: center;
+    margin: 20px;
+    justify-items: center;
+    padding-inline: 20px;
+}
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2fc4bc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0%;
+    transition: background-color 0.3s ease;
+}
+nav a:hover {
+    background-color: #070607;
+    transition: scale(1.5);
+}
+.section {
+    display: none;
+}
+.section.active {
+    display: block;
+}
+h1, h2, p {
+    text-align: center;
+}
+footer {
+    bottom: 0px;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    height: 40px;
+    background: linear-gradient(to left, #1995AD, #A1D6E2);
+    color: #fff;
+}
+footer a {
+    color: #dae1e2;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    header .home-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    header img {
+        height: 40px;
+    }
+    .pdf-container iframe {
+        height: 400px;
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name":"Gurupdesh",
+    "marks":78,
+    "date":"2024-05-24",
+    "courses":["Dart","Kotlin","Flutter","Ionic"],
+    "address":{
+        "city":"NDLS",
+        "area":"Malout",
+        "pin":34434,
+        "lon":80.2323,
+        "lat":45.5454
+    }
+}

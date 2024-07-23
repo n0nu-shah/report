@@ -1,0 +1,389 @@
+.container{
+    width: 1170px;
+    height:auto;
+    margin:0 auto;
+}
+.part{
+    width:100%;
+    height: 700px;
+    background-image: url(../HW/Images/background.webp);
+    background-size: cover;
+    margin:0px;
+}
+nav{
+    height:100px;
+    width:1170px;
+}
+nav ul{
+ list-style-type: none;
+}
+nav ul li a{
+text-decoration: none;
+float:left;
+padding: 10px 20px 10px 20px;
+}
+nav ul li button{
+    padding: 10px 20px 10px 20px;
+    float: right;
+    margin:0px;
+    position: relative;
+    bottom:30px;
+    
+
+}
+.new{
+    
+    font-size: 80px;
+    margin:0px;
+}
+.set1{
+    width:600px;
+    height: 75px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+figure img{
+    width:555px;
+    height:460px;
+    float:right;
+    position:relative;
+    bottom: 80px;
+    left:60px;
+}
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+   
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+
+.part1{
+    width:100%;
+    height: 350px;
+    background-image: url(../HW/Images/blackbackground.webp);
+    background-size:cover;
+}
+
+.middle{
+    width:400px;
+    text-align: center;
+    color:white;
+    position: relative;
+    left: 390px;
+    text-justify: inter-word;
+    
+   
+}
+#set{
+   text-align: center;
+   text-justify: inter-word;
+}
+.c{
+    
+    margin:0px;
+    font-size: 50px;
+}
+.part2{
+    width:100%;
+    height: 670px;
+    background-image: url(../HW/Images/background.webp);
+    background-size: cover;
+}
+.subsection1 {
+    float:left;
+    width:350px;
+    height: 500px;
+    margin:50px 0px 0px 0px;
+}
+.subsection1 img{
+    float:left;
+    width:350px;
+    height: 300px;
+    margin:0px 0px 50px 0px;
+   
+}
+.subsection2{
+    float:left;
+    width:350px;
+    height: 500px;
+    margin:50px 0px 0px 60px;
+}
+
+.subsection2 img{
+    float:left;
+    width:350px;
+    height: 300px;
+    margin:0px 0px 50px 0px;
+    
+}
+.subsection3 {
+    float:right;
+    width:350px;
+    height: 500px;
+    margin:50px 0px 0px 0px;
+}
+.subsection3 img{
+    float:right;
+    width:350px;
+    height: 300px;
+    
+    margin:0px 0px 50px 0px;
+}
+.part3{
+    width:100%;
+    height: 600px;
+    background-image: url(../HW/Images/background.webp);
+    background-size: cover;
+}
+.aeroplane {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aeroplane img {
+    width: 150px;
+    height: 150px;
+    margin:0px;
+  }
+  
+  .aeroplane h2 {
+    text-align: center;
+    font-size: 75px;
+    margin:0px;
+  }
+  .text-container {
+    text-align: center;
+    font-size: 16px;
+    
+  }
+.part4{
+    width:100%;
+    height: 670px;
+    background-image: url(../HW/Images/background.webp);
+    background-size: cover;
+}
+.sub1 img {
+    width:580px;
+    height:650px;
+    float:left;
+}
+.sub2{
+    width:550px;
+    height: 650px;
+    float:right;
+    display: flex;
+    flex-direction: column;
+   
+}
+.sub2 img{
+width:550px;
+ height:280px;
+ float:right;
+}
+.sub3{
+    height:450px;
+    width:590px;
+}
+.sub3 p{
+    text-align: justify;
+    margin:10px 0px 0px 30px;
+}
+.sub4{
+    height:200px;
+    width:250px;
+    float:left;
+}
+.sub4 h2{
+    font-size: 40px;
+    
+    margin:0px 0px 0px 20px;
+    
+}
+.part5{
+    width:100%;
+    height:650px;
+    background-image: url(../HW/Images/blackbackground.webp);
+    background-size: cover;
+    
+}
+.inner1{
+    width:530px;
+    height:500px;
+    color:white;
+    padding:100px 0px 0px 0px;
+    float:left;
+   
+}
+.inner1 h3{
+    margin:0px;
+    font-size:40px;
+}
+.inner1 p{
+    text-align: justify;
+}
+.inner2 img{
+    width: 550px;
+    height:450px;
+    float:right;
+    margin:100px 0px 0px 0px ;
+}
+.part6{
+    width:100%;
+    height: 600px;
+    background-image: url(../HW/Images/background.webp);
+    background-size: cover;
+    
+}
+.slab{
+    margin:0px;
+    width:750px;
+    height:580px;
+    float:left;  
+    padding:100px 0px 0px 0px;
+    margin:0px;
+}
+.slab h2{
+margin:0px;
+font-size: 80px;
+}
+
+ .line{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+   width:88%;
+   
+}
+
+
+.plus {
+    float: right;
+    margin: 10px;
+    position: relative;
+    bottom: 45px;
+    
+}
+.line1{
+    border-bottom: 2px solid black;
+    width:88%;
+}
+.slab2 img{
+    margin:0px;
+    float:right;
+    width:380px;
+    height:480px;
+    position: relative;
+    top:73px;
+   
+}
+figure{
+    margin:0px;
+}
+   
+.part8{
+    width:100%;
+    height: 670px;
+    background-image: url(../HW/Images/background.webp);
+    background-size: cover;
+}
+.fragment{
+    width:550px;
+    height:500px;
+    float:left;
+    padding:10px 0px 0px 0px;
+
+}
+.fragment h3{
+    margin:0px;
+    font-size: 90px;
+
+}
+:root {
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]  {
+    width: 420px;
+    padding: 12px 20px;
+    border: 2px solid black;
+    
+  }
+  
+  ::placeholder {
+    color: #666;
+    
+  }
+
+#j{
+    width: 85%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+ 
+}
+#unique{
+    background-color: #000; 
+  color: #fff; 
+  width: 470px;
+  padding: 12px 20px;
+}
+.frag{
+    float:right;
+    width: 600px;
+    height:550px;
+    padding:10px 0px 0px 0px;
+    
+}
+.frag img {
+width:600px;
+height:520px;
+float:right;
+
+}
+.part9{
+    width:100%;
+    height: 500px;
+    background-image: url(../HW/Images/grey.webp);
+    background-size: cover;
+    
+}
+
+.portion{
+    
+    width:150px;
+    height:350px;
+    float:left;
+    padding:100px 0px 0px 0px;
+}
+.portion p{
+    margin:0px;
+   font-size: 40px;
+   
+}
+.portion1{
+    width:870px;
+    height:430px;
+    margin:0px;
+    padding:100px 0px 0px 0px;
+}
+
+.portion1 p{
+    margin:0px;
+    
+}

@@ -1,0 +1,164 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "New ontology"@en; 
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 22 ###
+#  --------------------------- Property 0------------------------- 
+: rdf:type owl:ObjectProperty ;
+  rdfs:label "Account service"@en; 
+  rdfs:domain :online_account;
+  rdfs:range :Shop . 
+#  --------------------------- Property 1------------------------- 
+:worker rdf:type owl:ObjectProperty ;
+        rdfs:label "worker"@en; 
+        rdfs:domain :Shop;
+        rdfs:range :employee . 
+#  --------------------------- Property 2------------------------- 
+:First_name rdf:type owl:DatatypeProperty ;
+            rdfs:label "First name"@en; 
+            rdfs:domain :employee;
+            rdfs:range rdfs:Literal . 
+#  --------------------------- Property 3------------------------- 
+:last_name rdf:type owl:DatatypeProperty ;
+           rdfs:label "last name"@en; 
+           rdfs:domain :employee;
+           rdfs:range rdfs:Literal . 
+#  --------------------------- Property 4------------------------- 
+:employee_id rdf:type owl:DatatypeProperty ;
+             rdfs:label "employee id"@en; 
+             rdfs:domain :employee;
+             rdfs:range rdfs:Literal . 
+#  --------------------------- Property 5------------------------- 
+:Address rdf:type owl:DatatypeProperty ;
+         rdfs:label "Address"@en; 
+         rdfs:domain :employee;
+         rdfs:range rdfs:Literal . 
+#  --------------------------- Property 6------------------------- 
+:Current_projects rdf:type owl:ObjectProperty ;
+                  rdfs:label "Current projects"@en; 
+                  rdfs:domain :employee . 
+#  --------------------------- Property 7------------------------- 
+:Past_projects rdf:type owl:ObjectProperty ;
+               rdfs:label "Past projects"@en; 
+               rdfs:domain :employee . 
+#  --------------------------- Property 8------------------------- 
+:image rdf:type owl:ObjectProperty ;
+       rdfs:label "image"@en; 
+       rdfs:domain :Image;
+       rdfs:range :employee . 
+#  --------------------------- Property 9------------------------- 
+:thumbnail rdf:type owl:ObjectProperty ;
+           rdfs:label "thumbnail"@en; 
+           rdfs:domain :Image;
+           rdfs:range :Personal_info . 
+#  --------------------------- Property 10------------------------- 
+:ip_address rdf:type owl:DatatypeProperty ;
+            rdfs:label "ip address"@en; 
+            rdfs:domain :Agents;
+            rdfs:range rdfs:Literal . 
+#  --------------------------- Property 11------------------------- 
+:skype_id rdf:type owl:DatatypeProperty ;
+          rdfs:label "skype id"@en; 
+          rdfs:domain :Agents;
+          rdfs:range rdfs:Literal . 
+#  --------------------------- Property 12------------------------- 
+:Gender rdf:type owl:DatatypeProperty ;
+        rdfs:label "Gender"@en; 
+        rdfs:domain :Agents;
+        rdfs:range rdfs:Literal . 
+#  --------------------------- Property 13------------------------- 
+:Age rdf:type owl:DatatypeProperty ;
+     rdfs:label "Age"@en; 
+     rdfs:domain :Agents;
+     rdfs:range rdfs:Literal . 
+#  --------------------------- Property 14------------------------- 
+:Age rdf:type owl:DatatypeProperty ;
+     rdfs:label "Age"@en; 
+     rdfs:domain :employee;
+     rdfs:range rdfs:Literal . 
+#  --------------------------- Property 15------------------------- 
+:Gender rdf:type owl:DatatypeProperty ;
+        rdfs:label "Gender"@en; 
+        rdfs:domain :employee;
+        rdfs:range rdfs:Literal . 
+#  --------------------------- Property 16------------------------- 
+:Personal_mailbox rdf:type owl:ObjectProperty ;
+                  rdfs:label "Official mailbox"@en; 
+                  rdfs:domain :employee;
+                  rdfs:range :Personal_info . 
+#  --------------------------- Property 17------------------------- 
+:Personal_mail_box rdf:type owl:ObjectProperty ;
+                   rdfs:label "Personal mail box"@en; 
+                   rdfs:domain :employee . 
+#  --------------------------- Property 18------------------------- 
+:Hobbies rdf:type owl:ObjectProperty ;
+         rdfs:label "Hobbies"@en; 
+         rdfs:domain :employee . 
+#  --------------------------- Property 19------------------------- 
+:Account rdf:type owl:ObjectProperty ;
+         rdfs:label "Account"@en; 
+         rdfs:domain :Agents;
+         rdfs:range :online_account . 
+#  --------------------------- Property 20------------------------- 
+:Status rdf:type owl:DatatypeProperty ;
+        rdfs:label "Status"@en; 
+        rdfs:domain :Agents;
+        rdfs:range rdfs:Literal . 
+#  --------------------------- Property 21------------------------- 
+:Third_Party rdf:type owl:ObjectProperty ;
+             rdfs:label "Third Party"@en; 
+             rdfs:domain :Shop;
+             rdfs:range :Organization . 
+###  Class Definitions (Number of Classes) 10 ###
+#  --------------------------- Class  0------------------------- 
+:Shop rdf:type owl:Class; 
+      rdfs:label "Shop"@en . 
+#  --------------------------- Class  1------------------------- 
+:online_account rdf:type owl:Class; 
+                rdfs:label "online account"@en . 
+#  --------------------------- Class  2------------------------- 
+:online_ecommerce rdf:type owl:Class; 
+                  rdfs:subClassOf :online_account ;
+                  rdfs:label "online ecommerce"@en . 
+#  --------------------------- Class  3------------------------- 
+:website rdf:type owl:Class; 
+         rdfs:subClassOf :online_account ;
+         rdfs:label "Shop website"@en . 
+#  --------------------------- Class  4------------------------- 
+:Chat_support rdf:type owl:Class; 
+              rdfs:subClassOf :online_account ;
+              rdfs:label "Chat support"@en . 
+#  --------------------------- Class  5------------------------- 
+:employee rdf:type owl:Class; 
+          rdfs:label "employee"@en . 
+#  --------------------------- Class  6------------------------- 
+:Personal_info rdf:type owl:Class; 
+               rdfs:subClassOf :website ;
+               rdfs:label "Personal info"@en . 
+#  --------------------------- Class  7------------------------- 
+:Image rdf:type owl:Class; 
+       rdfs:label "Image"@en . 
+#  --------------------------- Class  8------------------------- 
+:Agents rdf:type owl:Class; 
+        rdfs:label "Agents"@en . 
+#  --------------------------- Class  9------------------------- 
+:Organization rdf:type owl:Class; 
+              rdfs:subClassOf :Agents ;
+              rdfs:label "Organization"@en . 

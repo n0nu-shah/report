@@ -1,0 +1,14 @@
+@prefix : <http://docs.stardog.com/tutorial/rdf-graph-data-model>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+:Travel     a   :Agency;
+            :name "NN Travels";
+            :has :Mini_Car, :Tempo_Traveller, :Tempo, :Car.
+
+:Tempo                a   :driver.
+:Tempo_Traveller      a   :driver.
+:Mini_Car             a   :driver.
+:Car                  a   :driver.
+
+:Business       :use    :Tempo.
+:Travelling     :use    :Car, :Mini_Car, :Tempo_Traveller.
